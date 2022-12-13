@@ -1,3 +1,4 @@
+
 package com.example
 
 import com.lagradost.cloudstream3.TvType
@@ -11,7 +12,7 @@ class ExampleProvider : MainAPI() { // all providers must be an instance of Main
 
     override var lang = "en"
 
-    // enable this when your provider has a main page
+    // .enable this when your provider has a main page
     override val hasMainPage = true
 
     // this function gets called when you search for something
@@ -19,3 +20,4 @@ class ExampleProvider : MainAPI() { // all providers must be an instance of Main
         return listOf<SearchResponse>()
     }
 }
+
